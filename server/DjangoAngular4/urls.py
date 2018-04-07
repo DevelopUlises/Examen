@@ -12,6 +12,7 @@ router.register(r'users', views.UserViewSet)
 
 urlpatterns = [
     url(r'^django-admin/', include(admin.site.urls)),
+    url(r'^api/verify',views.verify, name='verify'),
     url(r'^api/',include(router.urls)),
     url(r'^rest-auth/', include('rest_auth.urls')),
     url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
