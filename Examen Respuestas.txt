@@ -1,0 +1,69 @@
+
+Python
+1. Diferencia entre dir y help.
+R/ dir es usado para encontrar las definiciones de un modulo
+
+2. Diferencia entre list y tuple
+R/ La diferencia radica en como se declara y la estructura de los elementos de las mismas
+
+3. Que significan *args, ****kwargs** y da un ejemplo.
+R/ argumentos opcionales no definidos en la declaracion de una funcion
+
+4. Que son los decorators y da un ejemplo.
+R/ son funciones que se agregan a clases y funciones compoañado de "@" para definirles comportamiento y/o funcionalidades
+ ej: @csrf_exempt
+
+
+5. Implementa la funcion de os.walk.
+R/
+
+6. Explica la importancia de los generators y da un ejemplo.
+R/ 
+
+Primer codigo devuelve 8
+Segundo codigo devuelve:
+[['X', '', ''], ['X', '', ''], ['X', '', '']]
+
+
+HTML/CSS
+1. Diferencia entre margin y padding
+R/ 	margin espacio hacia afuera del elemento que se aplica
+	padding espacio adentro afuera del elemento que se aplica
+	
+2. Cual es la propiedad por defecto del tag div
+R/ 	incluye por defecto los atributos globales(ej. class, id, event handler ...)
+
+3. Que selector se necesita para centrar un contenedor en una linea
+R/ 	margin-right:auto;margin-left:auto;
+
+4. Que es una pseudo-clase
+R/ es una palabra que se agrega a un selector CSS antecedido de ":" para espeficivar un estado del elemento seleccionado
+
+5. Menciona una pseudo-clase
+R/ :hover
+
+6. Cuantas clases se pueden asignar un contenedor
+R/ N clases
+
+7. Menciona un framework para HTML
+R/ Bootstrap
+
+8. Menciona un precompilador de CSS
+R/  Sass
+
+9. Ordena los siguientes tags de manera correcta fieldset, legend, form
+R/ form,legend,fieldset
+
+
+General
+1. Que es el SDLC
+R/
+
+2. Que estándares de desarrollo conoces
+R/ Scrum
+
+3. Como se normaliza una base de datos
+R/ 
+
+4. Que es mejor el JSON o XML y argumenta tu respuesta
+R/ JSON ,es lo que he usado 
