@@ -13,12 +13,7 @@ def verify(request):
     if request.user.is_authenticated():
         return JsonResponse({'success': True,'user': UserSerializer(request.user).data})
     else:
-        try:
-            domain = request.build_absolute_uri().split(".")[0].split("//")[1]
-            obj = User.objects.get(domain_name=domain)
-            return JsonResponse({'success': False, 'subdomain': True, 'user': UserSerializer(obj).data})
-        except:
-            return JsonResponse({'success': False,'subdomain': False})
+        return JsonResponse({'success': False})
 
 
 def jwt_response_payload_handler(token, user=None, request=None):
